@@ -1,0 +1,299 @@
+body{
+  margin: 0  0 0 0;
+  padding: 0 0 0 0;
+  font-family: poppins;
+  color: white;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+
+nav{
+  background-color: white;
+  opacity: 90%;
+  width: 100%;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ position: fixed;
+ padding-top: 10px;
+ color: green;
+ border-bottom: solid green 1px;
+ height: 50px;
+}
+#space{
+  align-items: center;
+}
+#leftside{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 150px;
+  padding-right: 80px;
+  height: 90px;
+  margin-top: 0;
+
+  
+
+}
+#lin{
+ padding-left: 10px;
+ width: 20px;
+ height: 20px;
+ align-items: center;
+ padding-top: 20px;
+}
+
+#rightside{
+  opacity: 60%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  /* padding-top: 30px; */
+  /* padding-left: 350px; */
+  color: green;
+  background-color: white;
+}
+a{
+  text-decoration: none;
+  display: flex;
+  padding-bottom: 20px;
+  color: green;
+  transition: transform .2s; 
+  gap: 30px;
+
+}
+a:hover {
+  transform: scale(1.5);
+}
+
+
+
+
+#model{
+  border-color: transparent;
+  font-size: 16px;
+  color: green;
+  cursor: pointer;
+  width: 100px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  align-items: center;
+  padding-right: 10px;
+  transition: transform .2s;
+}
+#model:hover{
+  transform: scale(1.5);
+}
+h3{
+  font-size: 20px;
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-right: 45px;
+}
+
+
+
+#img1{
+  width: 120px;
+  padding-top: 0px;
+}
+#img2{
+  width: 30px;
+  height: 30px;
+  padding-top: 20px;
+  align-items: center;
+
+
+}
+.impart{
+  display: flex;
+  padding-top: 110px;
+  font-size: 1.2rem;
+  background-image: url(../assets/imgs/meristem-1661277962.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+.learn{
+  font-size: 10px;
+  padding-top: 128px;
+  padding-right: 360px;
+  position: absolute;
+  margin-left: 3px;
+  align-items: center;
+
+  
+
+}
+
+
+h2{
+  padding-top: 50px;
+}
+#arrow{
+  display:inline-flex ;
+  width: 20px;
+  height: 15px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 0;
+  align-items: center;
+}
+
+section{
+  display: flex;
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  margin-top: 30%;
+  min-width: 80%;
+  margin-right: 10px;
+  opacity: 80%;
+  align-items: center;
+  margin-bottom: 10px;
+  color: green;
+}
+.down{
+  display: flex;
+  height: 100px;
+  padding-bottom: 0%;
+  position:absolute;
+  margin-left: 0px;
+  padding-right: 15px;
+  gap: 90px;
+  margin-top: 300px;
+
+}
+
+
+.ico{
+  width: 15px;
+  padding-top: 30px;
+  height: 15px;
+  padding-left: 80px;
+  padding-bottom: 60px;
+}
+.iclist{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding-top: 70px;
+  gap: 85px;
+  position: absolute;
+  margin-right: 65px;
+  margin-top: 10px;
+}
+
+.long{
+  display: flex;
+  width: 100px;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 12px;
+}
+.imf{
+  display:inline-flex;
+  position: relative;
+  list-style-type: none;
+  line-height: 40px;
+  padding-left: 80px;
+  color: green;
+
+}
+.imf ul li{
+  list-style: none;
+  padding-bottom: 5px;
+}
+.s1{
+  font-size:20px;
+ 
+}
+.va{
+  background-color: darkgreen;
+  border: 0;
+  width: 100px;
+  color: white;
+}
+.s2{
+    font-size: 20px;
+    line-height: 0;
+    padding-top: 11px;
+    padding-left:  20px; ;
+    
+}
+.im{
+  display:flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.s3{
+  font-size: 12px;
+}
+.s4{
+  font-size: 20px ;
+}
+.s5{
+  font-size: 12px;
+}
+.s6{
+  font-size: 20px;
+  line-height: 20px;
+  padding-bottom: 13px;
+}
+.br{
+  font-size: 12px;
+  padding-left: 50px;
+}
+.ss4{
+  font-size: 20px;
+}
+.ss1{
+  font-size: 20px;
+  line-height: 20px;
+}
+.mf{
+  font-size: 20px;
+  line-height: 20px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 150px;
+}
+.bb{
+  padding-right: 15px;
+}
+.sss{
+  font-size: 20px;
+  line-height: 20px;
+  padding-left: 50px;
+
+}
+.sss5{
+  padding-left: 150px;
+  font-size: 12px;
+}
+.s16{
+  font-size: 20px;
+}
+#move{
+  display: flex;
+  padding-left: 80px;
+  font-size: 34px;
+  position: absolute;
+  align-items: center;
+}
+#move1{
+  padding-left: 80px;
+  font-size: 14px;
+}
+
+
+#path1{
+  width: 30px;
+}
+#Path{
+
+ width: 40px; 
+}
