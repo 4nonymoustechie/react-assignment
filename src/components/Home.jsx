@@ -2,14 +2,28 @@
 
 const Home = () => {
 
- 
+ const merisWealth = "Mersitem Wealth Maintain your lifestyle even when you retire"
+ const forMerisWealth = merisWealth.split(" ")
+
+
+ const forLineImg =  [ 'Invest' ,'Stock trading' ,'Estates & Trustees '  ,  'Financial Advisory ' , 'Wealth management ' , 'Registrars & Probate' , 'Loans & leases ']
+
+
+
+
+
+
+
+
+
     return(
         <div>
         <div className="impart">
                     <h1 id="move">
-                        Meristem Wealth <br /><br />
-                        Maintain your lifestyle <br />
-                        even when you retire.
+                        {`${forMerisWealth[0]} ${forMerisWealth[1]}`} <br/>
+                        {`${forMerisWealth[2]} ${forMerisWealth[3]} ${forMerisWealth[4]} `} <br/>
+                        {`${forMerisWealth[5]} ${forMerisWealth[6]} ${forMerisWealth[7]} ${forMerisWealth[8]} `} <br/>
+
                     </h1><br/>
                     <div className="learn">
                         <h2 id="move1">Learn more <img id="arrow" src="" alt="src\assets\imgs\dark_arrow.svg" /></h2>
@@ -24,13 +38,13 @@ const Home = () => {
                         <img className="ico" src="src\assets\icons\6 (2).png" alt="" />
                         <img className="ico" src="src\assets\icons\7.svg" alt="" />
                             <ul className="iclist">
-                                <li className="long"> Invest</li>
-                                <li className="long">Stock trading</li>
-                                <li className="long">Estates & Trustees</li>
-                                <li className="long">Financial Advisory</li>
-                                <li className="long">Wealth management</li>
-                                <li className="long">Registrars & Probate</li>
-                                <li className="long">Loans & leases</li>
+                                <li className="long"> {forLineImg[0]}</li>
+                                <li className="long">{forLineImg[1]}</li>
+                                <li className="long">{forLineImg[2]}</li>
+                                <li className="long">{forLineImg[3]}</li>
+                                <li className="long">{forLineImg[4]}</li>
+                                <li className="long">{forLineImg[5]}</li>
+                                <li className="long">{forLineImg[6]}</li>
                             </ul>
                         
                     </section>
